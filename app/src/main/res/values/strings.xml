@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Quiz App</string>
+    <string name="ready_for_a_sports_quiz">Ready For A Sports Quiz?!</string>
+    <string name="name">Name</string>
+    <string name="Question_1">In the sport of baseball, what are some things that are tracked?</string>
+    <string name="a_balls">A) Balls</string>
+    <string name="b_strikes">B) Strikes</string>
+    <string name="c_runs">C) Runs</string>
+    <string name="d_touchdowns">D) Touchdowns</string>
+    <string name="Question_2">In football what is the name of the player that throws the ball to its receivers?</string>
+    <string name="a_kicker">A) Kicker</string>
+    <string name="b_quaterback">B) Quaterback</string>
+    <string name="c_the_coach">C) The Coach</string>
+    <string name="d_the_referee">D) The Referee</string>
+    <string name="Question_3">Which one of these options is not a sport?</string>
+    <string name="a_soccer">A) Soccer</string>
+    <string name="b_baseball">B) Baseball</string>
+    <string name="c_football">C) Football</string>
+    <string name="d_sleeping">D) Sleeping</string>
+    <string name="Question_4">Which teams play in the NBA?</string>
+    <string name="a_chicago_bulls">A) Chicago Bulls</string>
+    <string name="b_miami_heat">B) Miami Heat</string>
+    <string name="c_la_dodgers">C) LA Dodgers</string>
+    <string name="d_philadelphia_eagles">D) Philadelphia Eagles</string>
+    <string name="Question_5">In soccer, how many points does a team get when a goal is scored?</string>
+    <string name="a_3">A) 3</string>
+    <string name="b_6">B) 6</string>
+    <string name="c_1">C) 1</string>
+    <string name="d_4">D) 4</string>
+    <string name="Question_6">Which teams play in the NFL?</string>
+    <string name="a_chicago_bears">A) Chicago Bears</string>
+    <string name="b_jacksonville_jaguars">B) Jacksonville Jaguars</string>
+    <string name="c_chicago_white_sox">C) Chicago White Sox</string>
+    <string name="d_san_antonio_spurs">D) San Antonio Spurs</string>
+    <string name="ready_to_see_how_you_did">Ready to see how you did?!</string>
+    <string name="submit">Submit</string>
+</resources>

@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bluebg"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <TextView
+            android:id="@+id/quiz_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/ready_for_a_sports_quiz"
+            android:textAllCaps="true"
+            android:textColor="#000000"
+            android:textSize="25sp" />
+
+        <EditText
+            android:id="@+id/testersName"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="@string/name"
+            android:inputType="textCapWords" />
+
+        <TextView
+            style="@style/QuestionText"
+            android:text="@string/Question_1" />
+
+        <CheckBox
+            android:id="@+id/Q1_option_A_checkbox"
+            style="@style/AnswerText"
+            android:text="@string/a_balls" />
+
+        <CheckBox
+            android:id="@+id/Q1_option_B_checkbox"
+            style="@style/AnswerText"
+            android:text="@string/b_strikes" />
+
+        <CheckBox
+            android:id="@+id/Q1_option_C_checkbox"
+            style="@style/AnswerText"
+            android:text="@string/c_runs" />
+
+        <CheckBox
+            android:id="@+id/Q1_option_D_checkbox"
+            style="@style/AnswerText"
+            android:text="@string/d_touchdowns" />
+
+        <TextView
+            style="@style/QuestionText"
+            android:text="@string/Question_2" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/Q2_A_button"
+                style="@style/AnswerText"
+                android:text="@string/a_kicker" />
+
+            <RadioButton
+                android:id="@+id/Q2_B_button"
+                style="@style/AnswerText"
+                android:text="@string/b_quaterback" />
+
+            <RadioButton
+                android:id="@+id/Q2_C_button"
+                style="@style/AnswerText"
+                android:text="@string/c_the_coach" />
+
+            <RadioButton
+                android:id="@+id/Q2_D_button"
+                style="@style/AnswerText"
+                android:text="@string/d_the_referee" />
+
+        </RadioGroup>
+
+        <TextView
+            style="@style/QuestionText"
+            android:text="@string/Question_3" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/Q3_A_Button"
+                style="@style/AnswerText"
+                android:text="@string/a_soccer" />
+
+            <RadioButton
+                android:id="@+id/Q3_B_Button"
+                style="@style/AnswerText"
+                android:text="@string/b_baseball" />
+
+            <RadioButton
+                android:id="@+id/Q3_C_Button"
+                style="@style/AnswerText"
+                android:text="@string/c_football" />
+
+            <RadioButton
+                android:id="@+id/Q3_D_Button"
+                style="@style/AnswerText"
+                android:text="@string/d_sleeping" />
+
+        </RadioGroup>
+
+        <TextView
+            style="@style/QuestionText"
+            android:text="@string/Question_4" />
+
+        <CheckBox
+            android:id="@+id/Q4_option_A_checkbox"
+            style="@style/AnswerText"
+            android:text="@string/a_chicago_bulls" />
+
+        <CheckBox
+            android:id="@+id/Q4_option_B_checkbox"
+            style="@style/AnswerText"
+            android:text="@string/b_miami_heat" />
+
+        <CheckBox
+            android:id="@+id/Q4_option_C_checkbox"
+            style="@style/AnswerText"
+            android:text="@string/c_la_dodgers" />
+
+        <CheckBox
+            android:id="@+id/Q4_option_D_checkbox"
+            style="@style/AnswerText"
+            android:text="@string/d_philadelphia_eagles" />
+
+
+        <TextView
+            style="@style/QuestionText"
+            android:text="@string/Question_5" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/Q5_A_Button"
+                style="@style/AnswerText"
+                android:text="@string/a_3" />
+
+            <RadioButton
+                android:id="@+id/Q5_B_Button"
+                style="@style/AnswerText"
+                android:text="@string/b_6" />
+
+            <RadioButton
+                android:id="@+id/Q5_C_Button"
+                style="@style/AnswerText"
+                android:text="@string/c_1" />
+
+            <RadioButton
+                android:id="@+id/Q5_D_button"
+                style="@style/AnswerText"
+                android:text="@string/d_4" />
+
+        </RadioGroup>
+
+
+        <TextView
+            style="@style/QuestionText"
+            android:text="@string/Question_6" />
+
+        <CheckBox
+            android:id="@+id/Q6_option_A_checkbox"
+            style="@style/AnswerText"
+            android:text="@string/a_chicago_bears" />
+
+        <CheckBox
+            android:id="@+id/Q6_option_B_checkbox"
+            style="@style/AnswerText"
+            android:text="@string/b_jacksonville_jaguars" />
+
+        <CheckBox
+            android:id="@+id/Q6_option_C_checkbox"
+            style="@style/AnswerText"
+            android:text="@string/c_chicago_white_sox" />
+
+        <CheckBox
+            android:id="@+id/Q6_option_D_checkbox"
+            style="@style/AnswerText"
+            android:text="@string/d_san_antonio_spurs" />
+
+        <TextView
+            android:id="@+id/result_message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:gravity="center"
+            android:text="@string/ready_to_see_how_you_did"
+            android:textAllCaps="true"
+            android:textColor="#000000"
+            android:textSize="25sp" />
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFA500"
+            android:onClick="submitAnswers"
+            android:text="@string/submit" />
+
+
+    </LinearLayout>
+</ScrollView>
